@@ -1,0 +1,48 @@
+.flexcol {
+  display: flex;
+  flex-direction: column; 
+}
+
+.group {
+  justify-content: center;
+  align-items: center;
+
+  margin: 1em; 
+}
+
+.group .counter {
+  width: 2em;
+
+  margin-right: 0.3em;
+  margin-left: 0.3em; 
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row; 
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.app {
+  color: rgb(12, 116, 116);
+  background-color: beige;
+  width: fit-content;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgb(12, 116, 116);
+  border-radius: 1em;
+
+  margin: 2em;
+}
